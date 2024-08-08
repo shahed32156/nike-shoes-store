@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ClockLoader from "react-spinners/ClockLoader";
+import RingLoader from "react-spinners/RingLoader";
 import RevealOnScroll from './HOOK/RevealOnScroll';
 import Navbar from './NAVBAR/Navbar';
 import Carousel from './CAROUSEL/Carousel';
@@ -35,7 +35,7 @@ function App() {
     <>
       {isLoading ? (
         <div className='flex justify-center items-center h-[100vh]'>
-          <ClockLoader  color="#c2185B" />
+          <RingLoader  color="#f34ee5" />
         </div>
       ) : (
         <div className='bg-gradient-to-r from-[#8e068e] via-[#390139] to-[black]'>
