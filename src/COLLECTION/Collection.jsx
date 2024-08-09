@@ -8,7 +8,7 @@ const products = [
   { id: 1, category: 'Men', image: './Images/a1.png', rating: 5.0, name: 'Nike Renew', description: 'Renew Run 2', price: 90 },
   { id: 2, category: 'Women', image: './Images/a2.png', rating: 5.0, name: 'Nike Quest', description: 'Quest 4', price: 120 },
   { id: 3, category: 'Sports', image: './Images/a3.png', rating: 4.8, name: 'Nike Revolution', description: 'Revolution 5', price: 65 },
-  { id: 4, category: 'Men', image: './Images/a4.png', rating: 5.0, name: 'Nike Flex Experience', description: 'Experience Run 10', price: 70 },
+  { id: 4, category: 'Men', image: './Images/a4.png', rating: 5.0, name: 'Nike Flex', description: 'Experience Run 10', price: 70 },
   { id: 5, category: 'Men', image: './Images/a5.png', rating: 4.5, name: 'Nike Air Zoom', description: 'Air Zoom Vomero', price: 75 },
   { id: 6, category: 'Women', image: './Images/a6.png', rating: 4.8, name: 'Nike Precision', description: 'Precision 6', price: 180 },
   { id: 7, category: 'Sports', image: './Images/a7.png', rating: 4.9, name: 'Nike SB Nyjah', description: 'Nyjah Free 2', price: 250 },
@@ -42,7 +42,7 @@ const Collection = () => {
     <>
       <div className='flex flex-col md:flex-row justify-between md:items-center gap-4 mt-24 mx-3 md:mx-10 lg:mx-14 xl:mx-24 2xl:mx-52'>
         <div className='flex flex-col gap-2'>
-          <h1 className='text-[20px] sm:text-2xl md:text-3xl 2xl:text-4xl font-extrabold text-white font-sans'>
+          <h1 className='text-2xl sm:text-2xl md:text-3xl 2xl:text-4xl font-extrabold text-white font-sans'>
             Our New <span className='text-purple-400'>Collection</span>
           </h1>
           <p className='text-[#ecebeb] text-[13px] sm:text-[16px]'>Best collection</p>
