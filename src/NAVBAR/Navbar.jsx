@@ -105,9 +105,9 @@ const Navbar = () => {
         <p className="mt-5 text-white">Your cart is empty now</p>
        <div className='flex flex-col gap-6 justify-center items-center m-10'>
           <img className='h-[200px] w-[150px]' src="./Images/bag.png" alt="" />
-          <button className=" bg-[tomato] text-white px-4 py-2 rounded hover:bg-[#e97662]" onClick={toggleCart}>
-              Back to the Nike Store
-            </button>
+         <NavLink to="/home"><button className=" bg-[tomato] text-white w-[220px] py-2 rounded hover:bg-[#e97662]" onClick={toggleCart}>
+              Back to the Nike Store <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button></NavLink>
        </div>
       </div>
     </>
