@@ -13,9 +13,9 @@ const Arrival = () => {
 
   return (
     <>
-      <div className='flex justify-between items-center gap-4 mt-24 mx-3 md:mx-10 lg:mx-14 xl:mx-24 2xl:mx-52'>
+      <div className='flex justify-between items-center gap-4 mt-24 mx-5 md:mx-10 lg:mx-14 xl:mx-24 2xl:mx-52'>
         <div className='flex flex-col gap-2'>
-          <h1 className='text-[20px] sm:text-2xl md:text-3xl 2xl:text-4xl font-extrabold text-white font-sans'>New <span className='text-purple-400'>Arrival</span></h1>
+          <h1 className='text-2xl sm:text-2xl md:text-3xl 2xl:text-4xl font-extrabold text-white font-sans'>New <span className='text-purple-400'>Arrival</span></h1>
           <p className='text-[#ecebeb] text-[13px] sm:text-[16px]'>Our New Collection</p>
         </div>
         <div>
