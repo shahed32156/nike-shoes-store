@@ -36,7 +36,7 @@ const handleSubmit = (e) => {
                   
           <div className='flex flex-col gap-3 sm:gap-4 md:gap-6 text-white'>
 
-              <h1 className='text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold sm:w-[370px] md:w-[350px] lg:w-[400px] xl:w-[450px] leading-[40px] sm:leading-[60px] md:leading-[50px] lg:leading-[60px] xl:leading-[70px] 2xl:leading-[70px]'>Best In Style Collection <span className='text-[#e825b4]'>For You</span></h1>
+              <h1 className='text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold sm:w-[370px] md:w-[350px] lg:w-[400px] xl:w-[450px] leading-[40px] sm:leading-[60px] md:leading-[50px] lg:leading-[60px] xl:leading-[70px] 2xl:leading-[70px]'>Best In Style Collection <span className='text-[#e825b4]'>For You</span></h1>
               <p className='text-[16px] sm:text-[17px] lg:text-xl w-[300px] sm:w-[400px] md:w-[350px] lg:w-[400px]'>We craft the, we want to say the best, but through 70 years experience in the industry</p> 
               <NavLink to="/products"><button className='bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 duration-500 hover:duration-500 hover:scale-110 hover:bg-gradient-to-l w-[160px] h-[44px] rounded'>Explore products</button></NavLink>
 
