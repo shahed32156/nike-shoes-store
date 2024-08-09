@@ -14,15 +14,15 @@ const Products = () => {
     { id: 5, name: 'Nike Renew', description: 'Renew Run 2', rating: "5", price: '$90', image: './Images/a5.png' },
     { id: 6, name: 'Nike Quest', description: 'Quest 4', rating: "5", price: '$120', image: './Images/a6.png' },
     { id: 7, name: 'Nike Revolution', description: 'Revolution 5', rating: "5", price: '$65', image: './Images/a7.png' },
-    { id: 8, name: 'Nike Flex Experience', description: 'Experience Run 10', rating: "4.5", price: '$70', image: './Images/a8.png' },
-    { id: 9, name: 'Nike Zoom Structure', description: 'Zoom Structure', rating: "5", price: '$80', image: './Images/a9.png' },
+    { id: 8, name: 'Nike Flex', description: 'Experience Run 10', rating: "4.5", price: '$70', image: './Images/a8.png' },
+    { id: 9, name: 'Nike Zoom', description: 'Zoom Structure', rating: "5", price: '$80', image: './Images/a9.png' },
     { id: 10, name: 'Nike React Miler', description: 'React Miler 2', rating: "4.7", price: '$85', image: './Images/a10.png' },
     { id: 11, name: 'Nike SB Zoom', description: 'Zoom Stefan Janoski', rating: "4.8", price: '$130', image: './Images/a11.png' },
     { id: 12, name: 'Nike Glide FlyEase', description: 'Glide FlyEase', rating: "5", price: '$120', image: './Images/a12.png' },
     { id: 13, name: 'Nike Kyrie Infinity', description: 'Kyrie Infinity', rating: "5", price: '$140', image: './Images/a13.png' },
     { id: 14, name: 'Nike Free RN', description: 'Free RN 5.0', rating: "4.7", price: '$100', image: './Images/a14.png' },
     { id: 15, name: 'Nike Joyride', description: 'Joyride Dual Run', rating: "4.8", price: '$140', image: './Images/a15.png' },
-    { id: 16, name: 'Nike ZoomX Invincible', description: 'Invincible Run Flyknit 3', rating: "180", price: '$120', image: './Images/a16.png' },
+    { id: 16, name: 'Nike ZoomX', description: 'Invincible Run Flyknit 3', rating: "180", price: '$120', image: './Images/a16.png' },
   ];
 
   // Filter products based on the search query
